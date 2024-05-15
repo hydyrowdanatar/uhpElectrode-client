@@ -40,7 +40,7 @@ export function Header({
             />
           </Link>
         </h1>
-        <div className="flex space-x-4 hidden sm:block">
+        {/* <div className="flex space-x-4 hidden sm:block">
           {data.collections.map((collection) => (
             <Link
               className="text-sm md:text-base text-gray-200 hover:text-white"
@@ -51,7 +51,7 @@ export function Header({
               {collection.name}
             </Link>
           ))}
-        </div>
+        </div> */}
         <div className="flex-1 md:pr-8">
           <SearchBar />
         </div>

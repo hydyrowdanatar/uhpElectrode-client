@@ -80,7 +80,7 @@ export default function Footer({
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
-                    <a href="http://www.noonchina.com.tm" target="_blank">
+                    <a href="http://216.250.9.227:7878" target="_blank">
                       Noon Consulting
                     </a>
                   </li>
@@ -99,9 +99,15 @@ export default function Footer({
             </h3>
 
             <ul role="list" className="mt-4 space-y-4">
-              <li>Imo: +993 63 17 94 00</li>
-              <li>Link: +993 71 19 07 17</li>
-              <li>WhatsApp: +86 130 7990 9963</li>
+              <li>
+                Imo: <a href="tel:+99363179400">+993 63 17 94 00</a>
+              </li>
+              <li>
+                Link: <a href="tel:+99371190717">+993 71 19 07 17</a>
+              </li>
+              <li>
+                WhatsApp: <a href="tel:+8613079909963">+86 130 7990 9963</a>
+              </li>
               <li>
                 Tiktok:
                 <a

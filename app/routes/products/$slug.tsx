@@ -230,7 +230,7 @@ export default function ProductSlug() {
                     )}
                   </button>
 
-                  <button
+                  {/* <button
                     type="button"
                     className="ml-4 py-3 px-3 rounded-md flex items-center justify-center text-gray-400 hover:bg-gray-100 hover:text-gray-500"
                   >
@@ -241,7 +241,7 @@ export default function ProductSlug() {
                     <span className="sr-only">
                       {t('product.addToFavorites')}
                     </span>
-                  </button>
+                  </button> */}
                 </div>
               </div>
               <div className="mt-2 flex items-center space-x-2">
@@ -254,7 +254,7 @@ export default function ProductSlug() {
                 </div>
               )}
 
-              <section className="mt-12 pt-12 border-t text-xs">
+              {/* <section className="mt-12 pt-12 border-t text-xs">
                 <h3 className="text-gray-600 font-bold mb-2">
                   {t('product.shippingAndReturns')}
                 </h3>
@@ -263,7 +263,7 @@ export default function ProductSlug() {
                   <p>{t('product.shippingCostsInfo')}</p>
                   <p>{t('product.returnsInfo')}</p>
                 </div>
-              </section>
+              </section> */}
             </activeOrderFetcher.Form>
           </div>
         </div>
